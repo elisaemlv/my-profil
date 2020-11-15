@@ -1,0 +1,44 @@
+body {
+	background-color: white
+ color: rgb(255,253,199);
+}
+
+h1{
+	font-family: Courier
+}
+h2{
+	font-family: Courier
+}
+p{
+	font-family: Courier
+}
+div{
+background: rgb(191,187,252);
+}
+div{
+	margin: 50px
+}
+div{
+	color: rgb(255,253,199);
+}
+div{
+	border-radius: 10px
+}
+div{
+	padding: 50px
+}
+
+@media(max-width: 500px) {
+	.container{
+		width: 400px
+	}
+}
+
+@media(max-width: 760) {
+	.container{
+		width: 600px
+	}
+
+	.image-circle{
+		border-radius: 50%
+	}
